@@ -1,0 +1,36 @@
+# ---- Datasets & sensitive data ----
+collected_dataset/
+cropped/
+processed/
+data/
+*.png
+*.jpg
+*.jpeg
+!README_assets/*.png
+
+# ---- Trained models (large binaries) ----
+*.keras
+*.h5
+*.pt
+*.pkl
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+.venv/
+*.egg-info/
+
+# ---- Environment / secrets ----
+.env
+
+# ---- OS / editor junk ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
