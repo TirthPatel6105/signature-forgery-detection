@@ -71,8 +71,7 @@ Beyond classification, embeddings are extracted from the trained model's second-
 ├── app.py                  # Streamlit app (classify + verify modes)
 ├── notebooks/
 │   └── signature_forgery.ipynb   # Full pipeline: data prep, training, evaluation
-├── models/
-│   └── signature_model.keras     # Trained model (not committed if large — see below)
+├── signature_model.keras     # Trained model (not committed if large — see below)
 ├── requirements.txt
 ├── .gitignore
 └── README.md
@@ -89,8 +88,6 @@ git clone https://github.com/TirthPatel6105/signature-forgery-detection.git
 cd signature-forgery-detection
 pip install -r requirements.txt
 ```
-
-Place a trained `signature_model.keras` file in `models/` before running the app.
 
 ## Running the app
 
