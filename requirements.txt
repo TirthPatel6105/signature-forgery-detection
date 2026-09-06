@@ -1,6 +1,7 @@
+streamlit
 tensorflow
+opencv-python-headless
 numpy
-opencv-python
-matplotlib
+Pillow
+pdf2image
 scikit-learn
-pandas
